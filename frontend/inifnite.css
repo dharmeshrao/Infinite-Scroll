@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: aqua;
+}
+h1{
+    text-align: center;
+    padding:2rem 0;
+    font-size: 3vh;
+}
+.mainDiv{
+    width: 50%;
+    height: 10vh;
+    margin:auto;
+    padding:2rem;
+    background:white;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mainDiv > p{
+    background:none;
+}
+.container{
+    display:flex;
+    flex-direction: column;
+    gap: 20px;
+}
